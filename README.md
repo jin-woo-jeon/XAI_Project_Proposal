@@ -22,8 +22,6 @@ In this project, we use long-tail versions of popular datasets: **CIFAR-100-LT**
 We conduct experiments on four long-tail datasets, including:
 - **ImageNet-LT** (Liu et al., 2019): This dataset contains 115.8K images across 1000 classes, with the number of images per class ranging from a maximum of 1280 to a minimum of 5.
 - **Places-LT** (Liu et al., 2019): Comprising 62.5K images from 365 classes, with class sizes ranging from a maximum of 4980 to a minimum of 5 images.
-- **iNaturalist 2018** (Van Horn et al., 2018): This dataset includes 437.5K images spread across 8142 species, with the number of images per species ranging from 2 to 1000.
-- **CIFAR-100-LT** (Cao et al., 2019): A long-tail version of the CIFAR-100 dataset with various imbalance ratios, such as 100, 50, and 10.
 
 In addition to measuring overall accuracy, we follow the evaluation protocol introduced by Liu et al. (2019) to report accuracy across three subsets of classes:
 - **Head classes**: Classes with more than 100 images.
