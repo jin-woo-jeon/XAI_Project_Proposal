@@ -20,7 +20,7 @@ Many real-world datasets exhibit **biases in data distribution**, which negative
 In this project, we use long-tail versions of popular datasets: **CIFAR-100-LT** and **Places-LT**. These datasets have been specifically modified to reflect a long-tail distribution, where certain classes have significantly more samples than others.
 
 We conduct experiments on four long-tail datasets, including:
-- **ImageNet-LT** (Liu et al., 2019): This dataset contains 115.8K images across 1000 classes, with the number of images per class ranging from a maximum of 1280 to a minimum of 5.
+- **CIFAR100-LT** : CIFAR-100-LT is constructed with various imbalance ratios, including 100, 50, and 10. 
 - **Places-LT** (Liu et al., 2019): Comprising 62.5K images from 365 classes, with class sizes ranging from a maximum of 4980 to a minimum of 5 images.
 
 In addition to measuring overall accuracy, we follow the evaluation protocol introduced by Liu et al. (2019) to report accuracy across three subsets of classes:
