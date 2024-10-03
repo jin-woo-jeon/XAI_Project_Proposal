@@ -33,10 +33,7 @@
     },
     "add_extra_info": true,
     "loss": {
-        "type": "DiverseExpertLoss",
-        "args": {
-            "tau": 2 
-        }
+        "type": "MultipleLogitAdjustment"
     },
     "metrics": [
         "accuracy"
