@@ -45,3 +45,7 @@ It’s important to note that in CIFAR-100, the validation set is the same as th
 While there are many other long-tail distribution datasets available, we chose this well-known benchmark because downloading and training on other datasets can be time-consuming
 1. **CIFAR-100-LT**:  
    The CIFAR-100-LT dataset will be automatically downloaded when you run the provided code. No additional steps are required for this dataset.
+
+performance:
+![image](https://github.com/user-attachments/assets/87fae103-d915-4a4b-9e95-4013629e0afa)
+
