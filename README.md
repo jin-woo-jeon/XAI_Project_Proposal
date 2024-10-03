@@ -36,3 +36,14 @@ The dataset will be split into three subsets:
 3. **Test Dataset**: The test dataset will contain only input data, with no ground truth labels provided. Participants will submit their predicted outputs for this dataset, and we will evaluate the models based on these predictions.
 
 By evaluating models across these splits, we can assess how well they generalize to unseen data, especially in the context of long-tail distributions.
+
+
+
+### Dataset Download
+
+1. **CIFAR-100-LT**:  
+   The CIFAR-100-LT dataset will be automatically downloaded when you run the provided code. No additional steps are required for this dataset.
+
+2. **Places-LT**:  
+   For the Places-LT dataset, please manually download the 256x256-sized **train**, **val**, and **test** datasets from the official [Places365 download page](http://places2.csail.mit.edu/download.html).  
+   After downloading, the code will automatically use `train.txt`, `val.txt`, and `test.txt` to configure and process the Places-LT dataset.
