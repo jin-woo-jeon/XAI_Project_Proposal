@@ -1,0 +1,3 @@
+[submodule "SADE-AgnosticLT"]
+	path = SADE-AgnosticLT
+	url = https://github.com/Vanint/SADE-AgnosticLT.git
