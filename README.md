@@ -46,6 +46,6 @@ While there are many other long-tail distribution datasets available, we chose t
 1. **CIFAR-100-LT**:  
    The CIFAR-100-LT dataset will be automatically downloaded when you run the provided code. No additional steps are required for this dataset.
 
-performance:
+performance in CIFAR100-LT
 ![image](https://github.com/user-attachments/assets/87fae103-d915-4a4b-9e95-4013629e0afa)
 
